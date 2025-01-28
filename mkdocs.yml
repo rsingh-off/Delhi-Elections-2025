@@ -1,0 +1,55 @@
+site_name: Delhi State Elections 2025
+
+theme:
+    name: "readthedocs" 
+    locale: en
+    color_mode: auto
+    user_color_mode_toggle: True
+    logo: diagrams/trading_logo.png
+    favicon: diagrams/trading_logo.png
+    features:
+        - content.code.copy
+        - content.code.select
+        - navigation:
+            - instant
+            - sections
+
+    palette:
+        primary: default
+        # accent: light-green
+extra_css: 
+    - style.css
+
+
+
+plugins:
+    - search 
+    - toggle-sidebar:
+        toggle_button: all
+    - drawio
+    # viewer_js: "https://viewer.diagrams.net/js/viewer-static.min.js"
+    - autorefs
+    - glightbox
+    - mermaid2
+    
+    
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+    - mdx_math:
+    - toc:
+        permalink: "#"
+        baselevel: 4
+        separator : "-"
+    - attr_list
+    # - pymdownx.superfences:
+    #     custom_fences:
+    #         -   name: mermaid
+    #             class: mermaid
+    #             format: !!python/name:pymdownx.superfences.fence_code_format
+    - pymdownx.blocks.caption:
+    - md_in_html:
+    - footnotes:
+   
+
