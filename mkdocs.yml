@@ -20,7 +20,11 @@ theme:
 extra_css: 
     - style.css
 
-
+nav:
+    - index.md
+    - check points.md
+    - polling station.md
+    - Training.md
 
 plugins:
     - search 

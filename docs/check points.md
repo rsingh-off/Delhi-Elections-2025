@@ -1,14 +1,11 @@
-# Data further needed
+# Report
 - Postal ballot details
 - MCC compliance details 
-- Permissions
+- Permissions details
 - Booklet on SOP for last 72 hrs till counting
 - Details of EVM and VVPAT
 - Postal Ballot daily account
 - Counting Center layout
-# Plans
-- Transportation plan
-- Communication plan
-- 
-# IT initiatives
-- Voter
+- Transportation Plan
+- Route chart ( if prepared)
+- Communication Plan
